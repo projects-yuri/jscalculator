@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "eg";
+    src: url(./font/EinerGrotesk-Bold.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-family: "eg";
+    margin-bottom: 5%;
+}
+
+.calculator{
+    background-color: rgba(187, 207, 224, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    font-family: "eg";
+    border-radius: 5px;
+    margin: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.button:hover{
+    background-color: rgb(200, 200, 200);
+}
+
+#result{
+    width: 214px;
+    background-color: white;
+    color: black;
+    text-align: right;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: "eg";
+    font-size: 25px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
